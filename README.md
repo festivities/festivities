@@ -1,4 +1,13 @@
-### Hi there 👋
+# hey!
+
+[festivity.pw](https://festivity.pw/)
+[twitter](https://twitter.com/Festivizing)
+discord: **festivity#7137**
+
+---
+
+- currently learning c++
+- interested in reversing shading techniques from video games
 
 <!--
 **Festivize/Festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
