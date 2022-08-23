@@ -1,11 +1,10 @@
 # hey!
 
-[festivity.pw](https://festivity.pw/)<br>
-[twitter](https://twitter.com/Festivizing)<br>
 discord: **festivity#7137**
 
 ---
 
+- actively working on [miHoYo Shaders for Blender](https://github.com/festivize/Blender-miHoYo-Shaders)
 - currently learning c++
 - interested in reversing shading techniques from video games
 
