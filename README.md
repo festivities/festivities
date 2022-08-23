@@ -1,7 +1,7 @@
 # hey!
 
-[festivity.pw](https://festivity.pw/)
-[twitter](https://twitter.com/Festivizing)
+[festivity.pw](https://festivity.pw/)<br>
+[twitter](https://twitter.com/Festivizing)<br>
 discord: **festivity#7137**
 
 ---
