@@ -4,8 +4,8 @@ discord: **festivity#7137**
 
 ---
 
-- actively working on [miHoYo Shaders for Blender](https://github.com/festivize/Blender-miHoYo-Shaders)
-- currently learning c++
+- actively working on [miHoYo Shaders for Blender](https://github.com/festivize/Blender-miHoYo-Shaders) and [Cheddar](https://github.com/festivize/Cheddar)
+- currently learning c++, hlsl
 - interested in reversing shading techniques from video games
 
 <!--
