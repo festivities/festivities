@@ -4,12 +4,12 @@ discord: **festivity#7137**
 
 ---
 
-- actively working on [miHoYo Shaders for Blender](https://github.com/festivize/Blender-miHoYo-Shaders) and [Cheddar](https://github.com/festivize/Cheddar)
-- currently learning c++, hlsl
-- interested in reversing shading techniques from video games
+- actively working on [miHoYo Shaders for Blender](https://github.com/festivize/Blender-miHoYo-Shaders) and [PrimoToon](https://github.com/festivize/PrimoToon)
+- currently learning c++ and hlsl
+- interested in graphics programming, reverse engineering and all sorts
 
 <!--
-**Festivize/Festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**festivize/festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
