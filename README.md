@@ -4,9 +4,17 @@ discord: **festivity#7137**
 
 ---
 
-- actively working on [miHoYo Shaders for Blender](https://github.com/festivize/Blender-miHoYo-Shaders) and [PrimoToon](https://github.com/festivize/PrimoToon)
-- currently learning c++ and hlsl
+- actively working on [PrimoToon](https://github.com/festivize/PrimoToon)
+- currently learning C++
 - interested in graphics programming, reverse engineering and all sorts
+
+---
+
+![](https://github-readme-stats.vercel.app/api?username=festivize&show_icons=true&theme=radical)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=festivize&show_icons=true&theme=radical)
+
+![](https://komarev.com/ghpvc/?username=festivize&color=d93a7c)
 
 <!--
 **festivize/festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
