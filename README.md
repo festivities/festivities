@@ -1,10 +1,10 @@
 # hey!
 
-discord: **festivity#7137**
+[![Discord](https://lanyard.cnrad.dev/api/176577264555786240?bg=141321)](https://discord.com/users/176577264555786240)
 
 ---
 
-- actively working on [PrimoToon](https://github.com/festivize/PrimoToon)
+- barely alive engineering major
 - currently learning C++
 - interested in graphics programming, reverse engineering and all sorts
 
