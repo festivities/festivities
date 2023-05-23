@@ -4,9 +4,9 @@
 
 ---
 
-- barely alive engineering major
-- currently learning C++
-- interested in graphics programming, reverse engineering and all sorts
+- #### computer science student at De La Salle University
+- #### currently learning ~~and procrastinating with~~ C++
+- #### interested in graphics programming, reverse engineering and all sorts
 
 ---
 
