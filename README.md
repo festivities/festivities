@@ -12,11 +12,11 @@
 
 ---
 
-![](https://github-readme-stats.vercel.app/api?username=festivize&show_icons=true&theme=radical)
+![](https://github-readme-stats.vercel.app/api?username=festivities&show_icons=true&theme=radical)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=festivize&show_icons=true&theme=radical)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=festivities&show_icons=true&theme=radical)
 
-![](https://komarev.com/ghpvc/?username=festivize&color=d93a7c)
+![](https://komarev.com/ghpvc/?username=festivities&color=d93a7c)
 
 <!--
 **festivize/festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
