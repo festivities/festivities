@@ -7,8 +7,8 @@
 - 20 year old computer science student at De La Salle University
 - currently learning ~~and procrastinating with~~ C++
 - interested in graphics programming, reverse engineering and all sorts
-- a video editor, motion graphics designer, compositing/VFX/3DCG producer — in other words, an artist! feel free to take a peek at my artistry [here](https://festivity.carrd.co/) & [here](https://twitter.com/festivizing)
-- currently managing a [community](https://discord.gg/85rP9SpAkF) of over 3.5k members focused on studying the shading and rendering techniques of a *particular anime game*
+- a video editor, motion graphics designer, compositing/VFX/3DCG producer — in other words, an artist! feel free to take a peek at my artistry [here](https://festivity.carrd.co/) & [here](https://twitter.com/festivizing/)
+- currently managing a [community](https://discord.gg/85rP9SpAkF) of over 4k members focused on studying the shading and rendering techniques of games developed by HoYoverse
 
 ---
 
