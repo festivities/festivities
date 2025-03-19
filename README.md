@@ -1,6 +1,6 @@
 # hey!
 
-[![Discord](https://lanyard.cnrad.dev/api/176577264555786240?bg=141321&hideDiscrim=true)](https://discord.com/users/176577264555786240)
+[![Discord](https://lanyard.cnrad.dev/api/176577264555786240?bg=141321)](https://discord.com/users/176577264555786240)
 
 ---
 
