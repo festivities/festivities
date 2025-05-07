@@ -5,7 +5,7 @@
 ---
 
 - shader programming and reverse engineering
-- video editing, motion design, VFX, 3DCG — in other words, I'm an artist! feel free to take a look at my works [here](https://festivity.carrd.co/) & [here](https://twitter.com/festivizing/)
+- video editing, motion design, VFX, 3DCG — in other words, I'm an artist! feel free to take a look at my works [here](https://festivity.carrd.co/) & [here](https://twitter.com/festivaliai/)
 - managing a [community](https://discord.gg/85rP9SpAkF) of over 11k members focused on studying the stylized shading and rendering techniques of various games
 
 ---
