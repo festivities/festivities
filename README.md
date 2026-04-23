@@ -1,20 +1,12 @@
-# hey!
+# ![](https://komarev.com/ghpvc/?username=festivities&color=d93a7c)
 
 [![Discord](https://lanyard.cnrad.dev/api/176577264555786240?bg=141321)](https://discord.com/users/176577264555786240)
-
----
-
-- shader programming and reverse engineering
-- video editing, motion design, VFX, 3DCG — in other words, I'm an artist! feel free to take a look at my works [here](https://festivity.carrd.co/) & [here](https://twitter.com/festivaliai/)
-- managing a [community](https://discord.gg/85rP9SpAkF) of over 11k members focused on studying the stylized shading and rendering techniques of various games
 
 ---
 
 ![](https://github-readme-stats.vercel.app/api?username=festivities&show_icons=true&theme=radical)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=festivities&show_icons=true&theme=radical)
-
-![](https://komarev.com/ghpvc/?username=festivities&color=d93a7c)
 
 <!--
 **festivize/festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
