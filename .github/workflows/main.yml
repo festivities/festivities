@@ -23,7 +23,7 @@ jobs:
           plugins_errors_fatal: yes
 
       - name: Achievements
-        uses: festivities/metrics_achievements@master
+        uses: festivities/metrics@master
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
@@ -37,7 +37,7 @@ jobs:
           plugins_errors_fatal: yes
 
       - name: Recent activity
-        uses: lowlighter/metrics@master
+        uses: festivities/metrics@master
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
