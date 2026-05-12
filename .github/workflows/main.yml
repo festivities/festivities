@@ -29,6 +29,7 @@ jobs:
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
           plugin_achievements: yes
+          plugin_achievements_only: stargazer
           delay: 120
           retries: 3
           retries_delay: 300
