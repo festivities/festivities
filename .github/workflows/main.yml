@@ -17,6 +17,8 @@ jobs:
         with:
           filename: metrics.user.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
+          user: festivities
+          plugins_errors_fatal: yes
 
       - name: Achievements
         uses: lowlighter/metrics@master
@@ -25,6 +27,9 @@ jobs:
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
           plugin_achievements: yes
+          delay: 120
+          user: festivities
+          plugins_errors_fatal: yes
 
       - name: Recent activity
         uses: lowlighter/metrics@master
@@ -36,3 +41,6 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          delay: 120
+          user: festivities
+          plugins_errors_fatal: yes
