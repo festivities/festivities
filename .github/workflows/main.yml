@@ -24,7 +24,6 @@ jobs:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
-          plugin_achievements: yes
 
       - name: Recent activity
         uses: lowlighter/metrics@latest
