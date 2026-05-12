@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -16,13 +13,13 @@ jobs:
       contents: write
     steps:
       - name: User Metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.user.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
 
       - name: Achievements
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
@@ -30,12 +27,12 @@ jobs:
           plugin_achievements: yes
 
       - name: Recent activity
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 0
+          plugin_activity_days: 14
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
