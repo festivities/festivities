@@ -7,16 +7,24 @@
 <table width="100%" style="border: none;">
   <tr style="border: none;">
     <td valign="top" width="50%" style="border: none;">
-      <img src="/metrics.user.svg" alt="Metrics">
+      <picture>
+        <img src="/metrics.user.svg" alt="">
+      </picture>
     </td>
     <td valign="top" width="50%" style="border: none;">
-      <img src="/metrics.plugin.achievements.svg" alt="Metrics"><br>
-      <img src="/metrics.plugin.activity.svg" alt="Metrics">
+      <picture>
+        <img src="/metrics.plugin.achievements.svg" alt="">
+      </picture><br>
+      <picture>
+        <img src="/metrics.plugin.activity.svg" alt="">
+      </picture>
     </td>
   </tr>
 </table>
 
-![](https://komarev.com/ghpvc/?username=festivities&color=d93a7c)
+<picture>
+  <img src="https://komarev.com/ghpvc/?username=festivities&color=d93a7c" alt="">
+</picture>
 
 </div>
 
