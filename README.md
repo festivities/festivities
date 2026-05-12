@@ -4,9 +4,17 @@
 
 ---
 
-![](https://github-readme-stats.vercel.app/api?username=festivities&show_icons=true&theme=radical)
+<picture>
+  <img src="/metrics.user.svg" alt="Metrics">
+</picture>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=festivities&show_icons=true&theme=radical)
+<picture>
+  <img src="/metrics.plugin.achievements.svg" alt="Metrics">
+</picture>
+
+<picture>
+  <img src="/metrics.plugin.activity.svg" alt="Metrics">
+</picture>
 
 <!--
 **festivize/festivize** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
