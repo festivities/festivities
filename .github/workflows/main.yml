@@ -23,7 +23,7 @@ jobs:
           plugins_errors_fatal: yes
 
       - name: Achievements
-        uses: dkhokhlov/metrics@master
+        uses: festivities/metrics_achievements@master
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
