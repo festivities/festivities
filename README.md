@@ -18,9 +18,6 @@
       <picture>
         <img src="/metrics.plugin.activity.svg" alt="">
       </picture>
-      <picture>
-        <img src="/metrics.plugin.languages.svg" alt="">
-      </picture>
     </td>
   </tr>
 </table>
