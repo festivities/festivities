@@ -45,7 +45,7 @@ jobs:
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 2
-          plugin_activity_days: 28
+          plugin_activity_days: 14
           plugin_activity_filter: all
           delay: 120
           retries: 3
