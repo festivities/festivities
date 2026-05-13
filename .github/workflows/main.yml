@@ -23,13 +23,13 @@ jobs:
           plugins_errors_fatal: yes
 
       - name: Achievements
-        uses: gh-metrics/metrics@master
+        uses: festivities/metrics@master
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: maintainer, influencer, polyglot
+          plugin_achievements_only: maintainer
           delay: 120
           retries: 3
           retries_delay: 300
@@ -37,7 +37,7 @@ jobs:
           plugins_errors_fatal: yes
 
       - name: Recent activity
-        uses: gh-metrics/metrics@master
+        uses: festivities/metrics@master
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
@@ -51,3 +51,24 @@ jobs:
           retries_delay: 300
           user: festivities
           plugins_errors_fatal: yes
+
+      - name: Most used
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.FESTIVITIES_METRICS }}
+          base: ""
+          commits_authoring: festivities, festivities@users.noreply.github.com, admin@festivity.moe
+          plugin_languages: yes
+          plugin_languages_skipped: festivities
+          plugin_languages_limit: 24
+          plugin_languages_threshold: 0%
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14

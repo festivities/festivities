@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Discord](https://lanyard.cnrad.dev/api/176577264555786240?bg=141321)](https://discord.com/users/176577264555786240)
+[![Discord](https://lanyard.kyrie25.dev/api/176577264555786240?imgStyle=square&showDisplayName=false&forceGradient=false&hideProfile=false&hideStatus=false&hideClan=false&hideDecoration=false&animatedDecoration=true&animated=true&theme=dark&imgBorderRadius=0px&borderRadius=0px&idleMessage=Idle&hideNameplate=false)](https://discord.com/users/176577264555786240)
 
 ---
 
@@ -17,6 +17,9 @@
       </picture><br>
       <picture>
         <img src="/metrics.plugin.activity.svg" alt="">
+      </picture>
+      <picture>
+        <img src="/metrics.plugin.languages.svg" alt="">
       </picture>
     </td>
   </tr>
