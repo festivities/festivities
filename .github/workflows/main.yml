@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Recent activity
-        uses: festivities/metrics@master
+        uses: gh-metrics/metrics@master
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
@@ -22,7 +22,6 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
-          delay: 120
           retries: 3
           retries_delay: 300
           user: festivities
