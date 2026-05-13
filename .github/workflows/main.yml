@@ -44,7 +44,7 @@ jobs:
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
           plugin_activity: yes
-          plugin_activity_limit: 2
+          plugin_activity_limit: 3
           plugin_activity_days: 14
           plugin_activity_filter: all
           delay: 120
