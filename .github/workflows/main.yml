@@ -19,7 +19,6 @@ jobs:
           token: ${{ secrets.FESTIVITIES_METRICS }}
           repositories_affiliations: owner, collaborator, organization_member
           user: festivities
-          plugin_notable: yes
           retries: 3
           retries_delay: 300
           plugins_errors_fatal: yes

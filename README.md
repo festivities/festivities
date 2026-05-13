@@ -1,12 +1,19 @@
-<div align="left">
+<div align="center">
 
-  <a href="https://discord.com/users/176577264555786240">
-    <img width="60.3%" src="https://lanyard.kyrie25.dev/api/176577264555786240?imgStyle=square&showDisplayName=false&forceGradient=false&hideProfile=false&hideStatus=false&hideClan=false&hideDecoration=false&animatedDecoration=true&animated=true&theme=dark&imgBorderRadius=1000px&borderRadius=0px&idleMessage=Idle&hideNameplate=false" alt="Discord">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://discord.gg/85rP9SpAkF">
-    <img width="35.7%"src="https://discord.com/api/guilds/894925535870865498/widget.png?style=banner4" alt="Omatsuri" />
-  </a>
+  <table width="100%" style="border: none;">
+    <tr style="border: none;">
+      <td valign="top" width="52%" style="border: none;">
+        <a href="https://discord.com/users/176577264555786240">
+          <img width="100%" src="https://lanyard.kyrie25.dev/api/176577264555786240?imgStyle=square&showDisplayName=false&forceGradient=false&hideProfile=false&hideStatus=false&hideClan=false&hideDecoration=false&animatedDecoration=true&animated=true&theme=dark&imgBorderRadius=1000px&borderRadius=0px&idleMessage=Idle&hideNameplate=false" alt="Discord">
+        </a>
+      </td>
+      <td valign="top" width="48%" style="border: none;">
+        <a href="https://discord.gg/85rP9SpAkF">
+          <img width="65%" src="https://discord.com/api/guilds/894925535870865498/widget.png?style=banner4" alt="Omatsuri" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
   ---
 
