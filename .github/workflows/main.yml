@@ -18,7 +18,6 @@ jobs:
           filename: metrics.user.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
           repositories_affiliations: owner, collaborator, organization_member
-          plugin_line: yes
           user: festivities
           retries: 3
           retries_delay: 300
@@ -45,7 +44,7 @@ jobs:
           token: ${{ secrets.FESTIVITIES_METRICS }}
           base: ""
           plugin_activity: yes
-          plugin_activity_limit: 3
+          plugin_activity_limit: 2
           plugin_activity_days: 28
           plugin_activity_filter: all
           delay: 120
