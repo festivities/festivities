@@ -12,6 +12,30 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: User Metrics
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.user.svg
+          token: ${{ secrets.FESTIVITIES_METRICS }}
+          user: festivities
+          retries: 3
+          retries_delay: 300
+          plugins_errors_fatal: yes
+
+      - name: Achievements
+        uses: gh-metrics/metrics@master
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.FESTIVITIES_METRICS }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: maintainer, influencer, polyglot
+          delay: 120
+          retries: 3
+          retries_delay: 300
+          user: festivities
+          plugins_errors_fatal: yes
+
       - name: Recent activity
         uses: gh-metrics/metrics@master
         with:
@@ -22,6 +46,7 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          delay: 120
           retries: 3
           retries_delay: 300
           user: festivities
