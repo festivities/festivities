@@ -18,9 +18,7 @@ jobs:
           filename: metrics.user.svg
           token: ${{ secrets.FESTIVITIES_METRICS }}
           repositories_affiliations: owner, collaborator, organization_member
-          plugin_notable: yes
-          plugin_notable_indepth: yes
-          plugin_notable_filter: commits.user:>0
+          plugin_line: yes
           user: festivities
           retries: 3
           retries_delay: 300
