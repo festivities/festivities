@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Discord](https://lanyard.kyrie25.dev/api/176577264555786240?imgStyle=square&showDisplayName=false&forceGradient=false&hideProfile=false&hideStatus=false&hideClan=false&hideDecoration=false&animatedDecoration=true&animated=true&theme=dark&imgBorderRadius=0px&borderRadius=0px&idleMessage=Idle&hideNameplate=false)](https://discord.com/users/176577264555786240)
+[![Discord](https://lanyard.kyrie25.dev/api/176577264555786240?imgStyle=square&showDisplayName=false&forceGradient=false&hideProfile=false&hideStatus=false&hideClan=false&hideDecoration=false&animatedDecoration=true&animated=true&theme=dark&imgBorderRadius=1000px&borderRadius=0px&idleMessage=Idle&hideNameplate=false)](https://discord.com/users/176577264555786240)
 
 ---
 
