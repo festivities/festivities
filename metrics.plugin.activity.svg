@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#85a87b3</div>
-                                        <div class="message">forgot import xd</div>
+                                        <div class="sha">#fac9071</div>
+                                        <div class="message">fix link in `SECURITY.md`</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#28a63d8</div>
-                                        <div class="message">update `README.md</div>
+                                        <div class="sha">#85b04a0</div>
+                                        <div class="message">take into account NVIDIA max filesize constraint</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#78b6579</div>
-                                        <div class="message">v1.0.0</div>
+                                        <div class="sha">#c1cd6ad</div>
+                                        <div class="message">revised `FIXED_PROMPT`</div>
                                     </div>
                                 </div>
                             </section>
