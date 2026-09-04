@@ -23,14 +23,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">festivities/Lumia</span>
+                                        <span class="repo">festivities/tafttime</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#fac9071</div>
-                                        <div class="message">fix link in `SECURITY.md`</div>
+                                        <div class="sha">#d61805f</div>
+                                        <div class="message">add `AGENTS.md`</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#85b04a0</div>
-                                        <div class="message">take into account NVIDIA max filesize constraint</div>
+                                        <div class="sha">#3387c8c</div>
+                                        <div class="message">cleanup</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c1cd6ad</div>
-                                        <div class="message">revised `FIXED_PROMPT`</div>
+                                        <div class="sha">#a9f0f21</div>
+                                        <div class="message">fix screening timeout and prepend timestamps to log entries</div>
                                     </div>
                                 </div>
                             </section>
