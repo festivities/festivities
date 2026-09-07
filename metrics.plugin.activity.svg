@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#2f4d88d</div>
-                                        <div class="message">impl catalog prjection + crawl + api</div>
+                                        <div class="sha">#0afbf63</div>
+                                        <div class="message">fix failure in page-auth preflight</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#e6db39d</div>
-                                        <div class="message">init impl plan</div>
+                                        <div class="sha">#38030c3</div>
+                                        <div class="message">add `mousemove` event during keepalive</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d475b49</div>
-                                        <div class="message">impl. private snapshot files</div>
+                                        <div class="sha">#896341b</div>
+                                        <div class="message">send proper push notifs for MFA</div>
                                     </div>
                                 </div>
                             </section>
