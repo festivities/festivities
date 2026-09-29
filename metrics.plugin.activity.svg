@@ -23,58 +23,58 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">festivities/wealthfolio-connect-self-hosted</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">feat/binance-trade-history</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#9ac8348</div>
-                                        <div class="message">fix: include full end date in activity queries
-
-Broker sync sends date-only end_date values. Treat them as inclusive</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed  commits in
-                                        <span class="repo">festivities/wealthfolio-connect-self-hosted</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">feat/binance-trade-history</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#2b24ef3</div>
-                                        <div class="message">feat(binance): import Buy Crypto payments
-
-Map completed fiat orders to crypto activities with their</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed  commits in
-                                        <span class="repo">festivities/CSOPESY-S04-Y2627T1</span>
+                                        <span class="repo">festivities/olm-opentools-mac</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#f4d3fac</div>
-                                        <div class="message">implement marquee animation with start/stop/set_text/set_speed</div>
+                                        <div class="sha">#4c2a4d2</div>
+                                        <div class="message">feat: port OLMRadialBlur from Windows binary (1.3.0)
+
+Polar-domain Zoom/Rotation blur rewritten from the decompiled .aex:</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed  commits in
+                                        <span class="repo">festivities/wealthfolio-connect-self-hosted</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">feat/binance-trade-history</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#dfbae9b</div>
+                                        <div class="message">fix(cex): omit spot mark from cost basis</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed  commits in
+                                        <span class="repo">festivities/Cherry</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#5951d13</div>
+                                        <div class="message">feat: echo session pings to keep :10123
+
+Client closes after 2*noopSeconds with no inbound bytes. Echo MQ/MS; same peer stayed up &gt;8 min.</div>
                                     </div>
                                 </div>
                             </section>
