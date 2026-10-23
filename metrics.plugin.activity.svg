@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="166" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="199" class="">
     <defs>
         <style/>
     </defs>
@@ -19,11 +19,30 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Starred
-                                        <span class="repo">eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</span>
+                                        Pushed  commits in
+                                        <span class="repo">festivities/Cherry</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#6d3087c</div>
+                                        <div class="message">feat: Garden gathering (essence, ore, fish) and Bag
+
+- gathering spots in every Garden: client-drawn host copies (cat tower
+  = essence, moon fountain = ore), fish linked to the map teapot
+- touch games ch11/12/13: pay only the winning touch count (essence 2,
+  ore 6, fish 1 at grade 0); cooldown field 0 while gathers remain
+- caps 20 own / 5 per friend Garden (max 3), +2 Gems (30/day cap),
+  +3 Smiles per gather, ledger gather:&lt;kind&gt;:&lt;day&gt;
+- Bag ch25-28/47: BagInfo 1+2, one AssetItem per material, filter
+  types, no validity dates; icons from the client's own files
+- docs: gathering facts, tester timing limit
+
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -42,14 +61,16 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#7318d72</div>
-                                        <div class="message">feat: hearts quest, Phase E mail items and seasonal calendars
+                                        <div class="sha">#89dafe4</div>
+                                        <div class="message">feat: Room Party bow, daily deals, limited items
 
-- Phase D slice 3: hearts (5/day -&gt; 30 Gems, QUEST row 9005, TLUP 102 counting)
-- Phase E slice 1: mailbox item gifts, seasonal login calendars, item grants
-- thumbnails: no-art filter + placeholder, animation-only items
-- room heart-button TLUP push (deployed, not drawn on device yet)
-- two-emulator lab scripts, tester/worker agent docs, handoff docs
+- Room Party bow (LPNP idx17 -&gt; idx21) unlocks the room heart button;
+  heart show re-pushed after the bow
+- Phase E slice 2: 6 daily deals at 30% off (SALE, epoch-ms end),
+  LIMIT items only inside their season window, deals lead their tab
+- deal purchases record the price paid; closet/Room Deco rows and
+  sell-back pay it back (no buy-low/sell-high loop)
+- docs: handoff accepted, IDA per-job copy rule, gathering decisions
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -64,7 +85,7 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">EthanArbuckle/fairplay-decrypt</span>
+                                        <span class="repo">eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</span>
                                     </div>
                                 </div>
                             </section>
