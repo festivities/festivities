@@ -29,21 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#084e9e5</div>
-                                        <div class="message">feat: converted iOS items, sleeve fix, racing fixes, handoff
-
-- itemconv: batch-convert the 1,955 items only in the 2014 iOS
-  item.zip to 10.1 folders (golden test vs pilot, 193/312 strict)
-- cherry-assets: convert step; upload under cherry/item/ with D1
-  generated rows and cherry/manifest/items.json; static/ refused
-- assets/economy: serve and list converted ids (cherry/ or local
-  tree, originals win), itemconv.json on/off switch
-- thumbs: dress parts follow the idle arm rotation (no doubled
-  sleeves); dp-cache v3_; test against 2014 previews
-- racing: arrival along the course's main axis; roster re-sent
-  after the racing world's relay start
-- docs: handoff 2026-10-27, open list closed or classified,
-  racing parked, lab state
+                                        <div class="sha">#0406527</div>
+                                        <div class="message">docs: Status rows name their commits
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -58,7 +45,7 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">VueTorrent/VueTorrent</span>
+                                        <span class="repo">x86rc/unthemidator</span>
                                     </div>
                                 </div>
                             </section>
@@ -77,12 +64,18 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#8a0e0c7</div>
-                                        <div class="message">fix: race lane on drawn ground; Square named LINE City
+                                        <div class="sha">#c8445a9</div>
+                                        <div class="message">feat: v6 landscape thumbnails, New Year season, boss book and rooms
 
-The race walked row 59, which is cliff/edge art on the petrace map; it
-now runs row 77 (x 76 to 118), land in both map orientations. The Square
-list name comes from operator data data/squares.json ("LINE City").
+- thumbs: port the approved v6 Garden landscape generator to Go
+  (map pack reader, premultiplied raster, golden test vs Python);
+  sky palettes move to gardens.json as operator data
+- itemcode: shared item code &lt;-&gt; id table (shop, thumbs)
+- calendars/rewards: New Year items, popup and event quests
+- web: serve "/https://host/path" as "/path" (boss result hung)
+- boss book: rc75 pages and rc76 claim, paid once per boss
+- boss rooms: shared lobbies, ready/start, shared HP, kick, invite
+- docs: handoff accepted, leftovers classified, lab state
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
