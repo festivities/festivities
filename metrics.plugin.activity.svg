@@ -29,8 +29,12 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#e727847</div>
-                                        <div class="message">docs: accept handoff 2026-10-30 ~19:05
+                                        <div class="sha">#7d203d8</div>
+                                        <div class="message">fix: serve the original Avatar Pic frames
+
+On a device without the pushed dataset, Avatar Pic had no frames and
+showed "Please try again later." The 252 original files are now in R2
+static/ and served like the craft art.
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -51,11 +55,8 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#ca8d69d</div>
-                                        <div class="message">docs: handoff 2026-10-30 ~23:10 (open and next tasks)
-
-Moves the accepted pair to HISTORY; new snapshot centred on remaining open
-tasks and Circle; stale spin, Story Gacha, MENU and racing notes corrected.
+                                        <div class="sha">#46d1883</div>
+                                        <div class="message">docs: animal gift device check, task 2 closed
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -76,10 +77,12 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#a9b1db6</div>
-                                        <div class="message">fix: animal avatars never pull hair or face gacha items
+                                        <div class="sha">#0ba995f</div>
+                                        <div class="message">chore: log Share to Diary bodies; record share findings
 
-Same rule as the spins. Docs: refusal, odds and item prize results.
+Share bodies are logged so each type's real fields can be read on a
+device. Records why gacha shares did not appear and the missing Avatar
+Pic frames on devices without the pushed dataset.
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
