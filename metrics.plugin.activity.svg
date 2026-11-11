@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="199" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="249" class="">
     <defs>
         <style/>
     </defs>
@@ -29,12 +29,17 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c3447df</div>
-                                        <div class="message">Revert "docs: season watch scheduled for Dec 15 and Jan 1"
+                                        <div class="sha">#41fe1e8</div>
+                                        <div class="message">docs: record the user's round 3 decisions for Roadmap 8 and the handoff
 
-The user wanted the dates simulated, not scheduled.
+- admin UI gets its own hostname; sign-up open to any Discord account
+- a gifted item sells back for nothing: new handoff task 1 (e)
+- uploads on at go-live; media copy to the bucket off for now, switchable
+  by admins; load target confirmed; GitHub Actions approved
+- handoff task 1: all leftovers, the next session asks its own questions
+- the Raspberry AVD is pinned to port 5559 from the next session on
 
-Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -53,18 +58,47 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#fbaeed4</div>
-                                        <div class="message">feat: guestbook badge clear and default Diary skin
+                                        <div class="sha">#f7a46df</div>
+                                        <div class="message">docs: revise .agents before the platform refactor; Roadmap 8 revised
 
-- guestbook3/count returns unread entries; GET guestbookcount/clear/&lt;aid&gt;
-  (host only) moves a per-host read marker saved in social.json.
-- skin_file.ini for _00007 common/00001 lists avatar_photo_bg.png and
-  skin_info.json, served from R2 static/DiarySkin (santi originals).
-- skinInfo stays 404: the client falls back to skin resource 1.
-- Device-verified 2026-11-08: wiped AVD Jerry draws the green header;
-  AVD Cherry badge clears and stays cleared after relaunch.
+Stale facts (checked read-only 2026-11-10):
+- Lab is down since the 10:20 host reboot (no Cherry process, no listeners,
+  AVDs Cherry and Jerry stopped); YunDetect PID; exe hash unchanged
+- the Raspberry AVD exists and was emulator-5554: serial hazard noted in
+  AGENTS, TESTING and the tester agent definition
+- DATASET: object count, DiarySkin row, dependency and client-patch rules
+- Code map: circle.json, no module dependency yet; cross-references to the
+  sections moved in ceb1c5e
+- handoff 2026-11-09 accepted with corrections; no open task started
 
-Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
+Roadmap 8 (user decisions untouched; "Revision 2026-11-10" explains each):
+- storage: memory stays authoritative, SQLite is the write-through record;
+  saves name the accounts they changed, ledger in the same transaction
+- load test with a target before any lock work
+- operator documents apply at restart first, hot swap per document later
+- first OCI deploy right after storage, on an allowlist
+- security found in the code: newest-account fallbacks, clear-text tokens,
+  unauthenticated diary upload, admin cookie vs ports, burst-aware limits,
+  retention, gifts as a Gem transfer channel
+- new P11 moderation and player content; Linux build in the gate from 8.3a
+- AGENTS "Where the platform refactor starts": measured starting point
+
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ceb1c5e</div>
+                                        <div class="message">docs: split the feature reference and tester notes out of PLAN and AGENTS
+
+Verbatim moves, no content change (line conservation checked by script):
+- PLAN "Feature reference (current)" and the Roadmap 7 build notes -&gt; REFERENCE.md
+- AGENTS "Known client-inherent limits" -&gt; REFERENCE.md
+- AGENTS "Tester practicalities" -&gt; TESTING.md
+
+PLAN 204 KB -&gt; 66 KB, AGENTS 124 KB -&gt; 87 KB, so a session working on the
+platform refactor no longer loads tap coordinates and per-feature protocol
+notes. Stubs in the old places keep older section references resolvable.
+
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -73,11 +107,23 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Starred
-                                        <span class="repo">forcequitOS/worse_query</span>
+                                        Pushed  commits in
+                                        <span class="repo">festivities/Cherry</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#d9c62ab</div>
+                                        <div class="message">docs: prototype branch is now protected on GitHub (ruleset 26805682)
+
+Blocks deletion and non-fast-forward updates of prototype; main is unaffected,
+fast-forward pushes still work. Created at the user's request.
+
+Co-Authored-By: Claude Sonnet 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
