@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="249" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="283" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -29,15 +29,16 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#41fe1e8</div>
-                                        <div class="message">docs: record the user's round 3 decisions for Roadmap 8 and the handoff
+                                        <div class="sha">#62631fe</div>
+                                        <div class="message">docs: slice 8.3a, prototype at 6c49273, CONTRACT answers to Raspberry (contract 1 proposed)
 
-- admin UI gets its own hostname; sign-up open to any Discord account
-- a gifted item sells back for nothing: new handoff task 1 (e)
-- uploads on at go-live; media copy to the bucket off for now, switchable
-  by admins; load target confirmed; GitHub Actions approved
-- handoff task 1: all leftovers, the next session asks its own questions
-- the Raspberry AVD is pinned to port 5559 from the next session on
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d30c14a</div>
+                                        <div class="message">config: slice 8.3a, configurable listeners, data and cache directories, public/auth settings
+
+internal/config resolves flag &gt; environment &gt; -config JSON &gt; default (defaults = the lab's values) and replaces the listen constants and every os.UserCacheDir site. server.hostnames and terms/notice2/help2.line.me join the certificate names; the three hosts join the lab DNS sink. Butler and Circle art checks are skipped without an asset store, so an isolated instance starts. Proven with a second instance on other ports beside the lab.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -58,45 +59,26 @@ Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#f7a46df</div>
-                                        <div class="message">docs: revise .agents before the platform refactor; Roadmap 8 revised
+                                        <div class="sha">#f75762a</div>
+                                        <div class="message">lpn: persist 1:1 chat messages (saved before reply and push)
 
-Stale facts (checked read-only 2026-11-10):
-- Lab is down since the 10:20 host reboot (no Cherry process, no listeners,
-  AVDs Cherry and Jerry stopped); YunDetect PID; exe hash unchanged
-- the Raspberry AVD exists and was emulator-5554: serial hazard noted in
-  AGENTS, TESTING and the tester agent definition
-- DATASET: object count, DiarySkin row, dependency and client-patch rules
-- Code map: circle.json, no module dependency yet; cross-references to the
-  sections moved in ceb1c5e
-- handoff 2026-11-09 accepted with corrections; no open task started
-
-Roadmap 8 (user decisions untouched; "Revision 2026-11-10" explains each):
-- storage: memory stays authoritative, SQLite is the write-through record;
-  saves name the accounts they changed, ledger in the same transaction
-- load test with a target before any lock work
-- operator documents apply at restart first, hot swap per document later
-- first OCI deploy right after storage, on an allowlist
-- security found in the code: newest-account fallbacks, clear-text tokens,
-  unauthenticated diary upload, admin cookie vs ports, burst-aware limits,
-  retention, gifts as a Gem transfer channel
-- new P11 moderation and player content; Linux build in the gate from 8.3a
-- AGENTS "Where the platform refactor starts": measured starting point
+chatrooms.json now holds the newest 200 messages per room; a restart resumes at the last serial instead of a reserved ceiling. Send and re-entry device-verified on both AVDs.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#ceb1c5e</div>
-                                        <div class="message">docs: split the feature reference and tester notes out of PLAN and AGENTS
+                                        <div class="sha">#7795db2</div>
+                                        <div class="message">thumbs: draw child-armature displays in pet thumbnails
 
-Verbatim moves, no content change (line conservation checked by script):
-- PLAN "Feature reference (current)" and the Roadmap 7 build notes -&gt; REFERENCE.md
-- AGENTS "Known client-inherent limits" -&gt; REFERENCE.md
-- AGENTS "Tester practicalities" -&gt; TESTING.md
+Ride pets build body, tail and wheels as child armatures, which the generator skipped (Pet Book Ride cards 326400252/259/267 drew partial figures). Device-verified on AVD Cherry.
 
-PLAN 204 KB -&gt; 66 KB, AGENTS 124 KB -&gt; 87 KB, so a session working on the
-platform refactor no longer loads tap coordinates and per-feature protocol
-notes. Stubs in the old places keep older section references resolvable.
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#dbf014b</div>
+                                        <div class="message">economy: a 0-Gem recycle sells for 0 (invalidItems looped the client)
+
+Device 2026-11-11: a face part answered in invalidItems made the client re-send inven/recycle/closet/v2 ~16 times a second. Faces and unpriced items now sell for 0 like gifts; verified on AVD Jerry (one request, item gone).
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -117,13 +99,10 @@ Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d9c62ab</div>
-                                        <div class="message">docs: prototype branch is now protected on GitHub (ruleset 26805682)
+                                        <div class="sha">#c966708</div>
+                                        <div class="message">docs: Gacha Shop pages device-verified on AVD Cherry
 
-Blocks deletion and non-fast-forward updates of prototype; main is unaffected,
-fast-forward pushes still work. Created at the user's request.
-
-Co-Authored-By: Claude Sonnet 5.5 &lt;noreply@anthropic.com&gt;</div>
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
