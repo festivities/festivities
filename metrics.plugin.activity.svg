@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="283" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="299" class="">
     <defs>
         <style/>
     </defs>
@@ -29,56 +29,18 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#62631fe</div>
-                                        <div class="message">docs: slice 8.3a, prototype at 6c49273, CONTRACT answers to Raspberry (contract 1 proposed)
+                                        <div class="sha">#1abd71e</div>
+                                        <div class="message">metrics: slice 8.4, server counters on the admin listener and cmd/cherry-load
+
+expvar counters (requests, connections, saves and save time under the lock, accounts, WAL size) at /debug/vars on the admin mux only. cherry-load seeds synthetic accounts, runs synthetic players (HTTP, session socket, Garden gateway entry) and probes WAL bytes per save. Measurements only: no lock, save path or schema change.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#d30c14a</div>
-                                        <div class="message">config: slice 8.3a, configurable listeners, data and cache directories, public/auth settings
+                                        <div class="sha">#bbcb061</div>
+                                        <div class="message">test: archive-dependent tests skip without the device archive (CI)
 
-internal/config resolves flag &gt; environment &gt; -config JSON &gt; default (defaults = the lab's values) and replaces the listen constants and every os.UserCacheDir site. server.hostnames and terms/notice2/help2.line.me join the certificate names; the three hosts join the lab DNS sink. Butler and Circle art checks are skipped without an asset store, so an isolated instance starts. Proven with a second instance on other ports beside the lab.
-
-Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed  commits in
-                                        <span class="repo">festivities/Cherry</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#f75762a</div>
-                                        <div class="message">lpn: persist 1:1 chat messages (saved before reply and push)
-
-chatrooms.json now holds the newest 200 messages per room; a restart resumes at the last serial instead of a reserved ceiling. Send and re-entry device-verified on both AVDs.
-
-Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7795db2</div>
-                                        <div class="message">thumbs: draw child-armature displays in pet thumbnails
-
-Ride pets build body, tail and wheels as child armatures, which the generator skipped (Pet Book Ride cards 326400252/259/267 drew partial figures). Device-verified on AVD Cherry.
-
-Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#dbf014b</div>
-                                        <div class="message">economy: a 0-Gem recycle sells for 0 (invalidItems looped the client)
-
-Device 2026-11-11: a face part answered in invalidItems made the client re-send inven/recycle/closet/v2 ~16 times a second. Faces and unpriced items now sell for 0 like gifts; verified on AVD Jerry (one request, item gone).
+testutil.RequireArchive guards the 20 tests that failed on the Linux runner; CHERRY_TEST_NO_ARCHIVE=1 runs the suite as CI sees it (61 tests skip).
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -99,8 +61,54 @@ Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c966708</div>
-                                        <div class="message">docs: Gacha Shop pages device-verified on AVD Cherry
+                                        <div class="sha">#2200e0c</div>
+                                        <div class="message">docs: slice 8.6b parts 1 and 2, actor inventory findings, CONTRACT entry
+
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b6c8c02</div>
+                                        <div class="message">auth: slice 8.6b part 1, identity-mode hardening and the sign-up gate
+
+In discord and dev-fake: no newest-account fallback, lab grants off, auth.signup open|allowlist|closed with an allowlist file, Delete Avatar resets the account to its identity and revokes its tokens, creation items and the starter room recycle for nothing. lab-guest is unchanged.
+
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4f15e28</div>
+                                        <div class="message">lpn: slice 8.6b part 2, gateway logins verified against the account's session key
+
+Garden, Square, Room Party, Circle and Treasure World logins and the TLUP ClientSession took the claimed aid on trust; a login is now accepted only when that account holds the presented session key (constant-time), and the connection's actor is fixed at login. Session and gateway frame caps before authentication, a per-address connection cap. Device-verified on both AVDs with the stock client.
+
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed  commits in
+                                        <span class="repo">festivities/Cherry</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#d3395c3</div>
+                                        <div class="message">docs: slice 8.3b parts A and B1, lab on cherry.db
+
+Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#eee7bf7</div>
+                                        <div class="message">store: slice 8.3b part B1, accounts, tokens and the ledger live in cherry.db
+
+Memory stays the authority; SaveLocked(lines, accs...) writes the named account rows, their new token rows, the ledger lines and the meta scalars in one transaction. The clear-token map is replaced by an index keyed by SHA-256; tokens and guest codes are never stored in clear. In test builds a save panics when an account it did not name changed. cmd/cherry opens the database and refuses to start empty beside an accounts.json. Lab migrated with cherry-import and verified on both AVDs.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
