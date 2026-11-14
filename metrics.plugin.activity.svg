@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="299" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="266" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.audit svg{margin:0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.token.operator{color:#106cbc}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -29,18 +29,10 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#1abd71e</div>
-                                        <div class="message">metrics: slice 8.4, server counters on the admin listener and cmd/cherry-load
+                                        <div class="sha">#565af34</div>
+                                        <div class="message">docs: handoff 2026-11-12 (platform slices 8.3a to 8.7 part 1, lab on cherry.db); previous pair moved to HISTORY
 
-expvar counters (requests, connections, saves and save time under the lock, accounts, WAL size) at /debug/vars on the admin mux only. cherry-load seeds synthetic accounts, runs synthetic players (HTTP, session socket, Garden gateway entry) and probes WAL bytes per save. Measurements only: no lock, save path or schema change.
-
-Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#bbcb061</div>
-                                        <div class="message">test: archive-dependent tests skip without the device archive (CI)
-
-testutil.RequireArchive guards the 20 tests that failed on the Linux runner; CHERRY_TEST_NO_ARCHIVE=1 runs the suite as CI sees it (61 tests skip).
+PLAN: new HANDOFF INITIATED block, Status rows, Roadmap 8 Progress. AGENTS: gate and deploy recipe, isolated instances, Lab storage and data directory, Platform state, dependency order. TESTING: routes learned 2026-11-11/12. REFERENCE: 1:1 chat, pet thumbnails, recycle rule. CONTRACT and DATASET: status and data directory.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -61,24 +53,16 @@ Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#2200e0c</div>
-                                        <div class="message">docs: slice 8.6b parts 1 and 2, actor inventory findings, CONTRACT entry
+                                        <div class="sha">#594970c</div>
+                                        <div class="message">docs: slice 8.5
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#b6c8c02</div>
-                                        <div class="message">auth: slice 8.6b part 1, identity-mode hardening and the sign-up gate
+                                        <div class="sha">#684c9b2</div>
+                                        <div class="message">opdata: slice 8.5, operator documents in the database (publish applies at the next restart)
 
-In discord and dev-fake: no newest-account fallback, lab grants off, auth.signup open|allowlist|closed with an allowlist file, Delete Avatar resets the account to its identity and revokes its tokens, creation items and the starter room recycle for nothing. lab-guest is unchanged.
-
-Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4f15e28</div>
-                                        <div class="message">lpn: slice 8.6b part 2, gateway logins verified against the account's session key
-
-Garden, Square, Room Party, Circle and Treasure World logins and the TLUP ClientSession took the claimed aid on trust; a login is now accepted only when that account holds the presented session key (constant-time), and the connection's actor is fixed at login. Session and gateway frame caps before authentication, a per-address connection cap. Device-verified on both AVDs with the stock client.
+Schema v3 adds documents and audit. Every content file of data/ is a registered document with its own validator; a published database version wins over the config file and the embedded default at startup, and one that fails its checks is rejected for that document only. Draft, validate, publish and rollback each run in one transaction with an audit row; a loopback API on the admin mux and scripts/cherry-docs.py drive them. No hot swap yet.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -99,16 +83,16 @@ Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d3395c3</div>
-                                        <div class="message">docs: slice 8.3b parts A and B1, lab on cherry.db
+                                        <div class="sha">#347d5f1</div>
+                                        <div class="message">docs: slice 8.7 part 1
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#eee7bf7</div>
-                                        <div class="message">store: slice 8.3b part B1, accounts, tokens and the ledger live in cherry.db
+                                        <div class="sha">#5f79a05</div>
+                                        <div class="message">admin: slice 8.7 part 1, staff UI foundation (own listener, Discord sign-in, sessions, CSRF, documents and audit pages)
 
-Memory stays the authority; SaveLocked(lines, accs...) writes the named account rows, their new token rows, the ledger lines and the meta scalars in one transaction. The clear-token map is replaced by an index keyed by SHA-256; tokens and guest codes are never stored in clear. In test builds a save panics when an account it did not name changed. cmd/cherry opens the database and refuses to start empty beside an accounts.json. Lab migrated with cherry-import and verified on both AVDs.
+Off unless listen.staff is set. TLS 1.2 ECDHE-AEAD and 1.3 only with PEM reload; sign-in admits the owner or an allowlisted id with two-factor on; __Host- cookies, in-memory sessions stored hashed with idle and absolute timeouts; every POST checks Origin, session, body cap and a per-session CSRF token, and publish/rollback need a fresh login; strict CSP with no script. Pages for the operator documents and the audit log on top of slice 8.5.
 
 Co-Authored-By: Claude Fable 5.2 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
