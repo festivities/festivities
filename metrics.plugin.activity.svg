@@ -23,20 +23,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">festivities/Cherry</span>
+                                        <span class="repo">festivities/olm-opentools-mac</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#955b310</div>
-                                        <div class="message">docs: public README.md; accept the post-launch handoff
+                                        <div class="sha">#e8fbd37</div>
+                                        <div class="message">fix(OLMAntiAntiAlias): export EffectMain with C linkage
 
-Add a comprehensive, endpoint-agnostic README: features, listeners and
-protocols, build and gate, sandbox/lab/public setup, configuration,
-assets (DATASET), client (Raspberry, CONTRACT), operator documents,
-operations, layout, known gaps, legal/AGPL. Examples checked against
-internal/config; sandbox commands run on a scratch build.
+AE failed with "Couldn't find main entry point (48 :: 72)": the header
+lacked the extern "C" DllExport declaration, so the symbol was mangled.
 
 Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
@@ -57,8 +54,14 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#4b0615a</div>
-                                        <div class="message">economy: butler 1:1 visual matching pass across full santi+lp+robo catalog</div>
+                                        <div class="sha">#6898539</div>
+                                        <div class="message">lpn: keep Square theme IDs in 1..31 (excluding 2) so chat and exit work
+
+NaWorldChatListLayer::InitUI only builds the working Square chat layout (WorldChatNotificationBg4.plist, tag 952) for world types 1..31 excluding 2, and NaWorldManager::IsInSquare() checks 1..31 (failing IsInSquare caused the Square list's home button to bounce back into the Square and drop the LPN tunnel).
+
+Renumber the eight Squares previously on Cherry-made IDs 32-39 to IDs in 1..31 with no special client branches (world-types.md): LINE City 1, LINE Café 3, Runway Square 4, Pet Theme Park 5, LINE City Shibuya 8, SANRIO CHARACTERS Square 15, LINE Park 16, Hatsune Miku Square 17 (Treasure Island 6, Disney Square 10, Disney Disco 27 unchanged). Reject &lt;1, &gt;31 and ==2 in checkSquares.
+
+Also includes the handoff doc updates (.agents/PLAN.md, HISTORY.md, TESTING.md).</div>
                                     </div>
                                 </div>
                             </section>
@@ -77,8 +80,17 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#bbb58cf</div>
-                                        <div class="message">fix(ios): accept signer-assigned bundle identifiers</div>
+                                        <div class="sha">#9476c1b</div>
+                                        <div class="message">fix(android): return Discord sign-in via raspberry://auth
+
+The loopback receiver timed out on phones whose battery/standby
+rules firewall the backgrounded game (Cherry CONTRACT 2026-11-21).
+A manifest-declared AuthReturn trampoline now takes the deep link,
+hands it to the live attempt (state + in-memory PKCE) and brings
+the game back, closing the Custom Tab. Removes the confusing
+"Return to the game" page. Manifest edit is SHA-locked.
+
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
