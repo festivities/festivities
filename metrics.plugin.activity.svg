@@ -29,20 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#240e758</div>
-                                        <div class="message">Fix profile pictures everywhere, prune stale media, add 3F &amp; room size remodeling
-
-- Profile pictures: populate primary URL + bg fallback (profilebg/12.jpg) across
-  Diary intro/header/cells, friend sync/search, Room Party invite, pins, hearts,
-  Circle roster, and 1:1 Avatar Chat (remodel/profile RE specs).
-- Stale media cleanup: delete superseded/abandoned profile, room-preset, profile-photo,
-  and diary-post media atomically on save/modify/remove, and prune unreferenced
-  media_files + orphan .img files older than 1h at startup and hourly (preserving
-  unrestored deleted_avatars).
-- 2F/3F &amp; room size remodeling: add per-account RoomRemodel state (MaxFloor 2-&gt;3,
-  per-floor tileSize 12/18/24/36), data/remodel.json catalog (1F/2F/3F), buy/apply
-  handlers (with furniture bounds clipping on shrink), ServeRemodelFile art aliasing,
-  and 3F support in RoomDecorInfo, dividefloor, groundlevel/status, and Room Party.</div>
+                                        <div class="sha">#e74ce81</div>
+                                        <div class="message">docs: record 226d511 WAL/query-plan fix production deploy</div>
                                     </div>
                                 </div>
                             </section>
@@ -61,20 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#1fc1a1d</div>
-                                        <div class="message">room: Pet Book call and follow for bought pets
-
-Bought Minipets never appeared: nothing set a player's pet to follow or
-arranged it in My Room. Serve the Pet Book's own buttons:
-GET pet/room/call/&lt;petId&gt; arranges the pet on LEVEL_1 (cap 8) and
-GET pet/inven/status/represent/&lt;petId&gt; toggles the following pet.
-MYPET rows mark the free call available, and
-pet/book/race/info/default/skin answers an empty object instead of 404.
-
-Docs: accept the 2026-11-22 handoff (Raspberry closed Issue B
-client-side) and record the pet place/call findings.
-
-Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
+                                        <div class="sha">#226d511</div>
+                                        <div class="message">store: fix chat_log/media_files query plans (CTE + accounts_aid partial index), bound chat reads, and truncate WAL after migrations</div>
                                     </div>
                                 </div>
                             </section>
@@ -93,8 +69,8 @@ Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#405b84d</div>
-                                        <div class="message">web: populate profile picture fields on diary comments, likes and guestbook</div>
+                                        <div class="sha">#485f236</div>
+                                        <div class="message">docs: record 34cc4b8 production deploy (schema v11)</div>
                                     </div>
                                 </div>
                             </section>
