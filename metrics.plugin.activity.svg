@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="449" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="283" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.added{color:#3fb950}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.added{color:#3fb950}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -29,8 +29,34 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#5253531</div>
-                                        <div class="message">admin,economy: clear 2FA-required sign-in message and auto-discover donated original faces</div>
+                                        <div class="sha">#b26b9f8</div>
+                                        <div class="message">docs: text moderation (stacked-mark crash guard, banned word list) a79b0ea
+
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a79b0ea</div>
+                                        <div class="message">Refuse client-crashing stacked-mark text and add an operator banned word list
+
+Players were being kicked out of Squares by copy-pasted Thai strings
+carrying 40 to 100 stacked combining marks: every client that drew one
+crashed (production 2026-11-27: runs of 49+ were followed within 3 s by
+6.2 gateway resets on average vs 1.1 before; ordinary text stays at 6
+or fewer marks in a row).
+
+- httpx.SafeText: valid UTF-8 and at most 8 combining marks (Mn/Me) in
+  a row; format characters neither count nor end a run.
+- UnmarshalNativeJSON checks every string of every request body
+  (escapes decoded) and returns ErrUnsafeText.
+- The six chat paths (Square, whisper, Room Party, Circle, Lounge, 1:1)
+  refuse it and log the sender's aid; store.ValidNickname includes it,
+  and avatar creation now applies the nickname rule at all.
+- cherry.text_refused counter and a staff dashboard refusals entry.
+- data/bannedwords.json (origin cherry, empty by owner decision) is
+  served on GET /v4/banned/keyword and masked by the server in chat and
+  stored player text; the chat log keeps what was typed.
+
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -43,16 +69,16 @@
                                     </svg>
                                     <div class="content">
                                         Pushed  commits in
-                                        <span class="repo">festivities/Cherry</span>
+                                        <span class="repo">festivities/Raspberry</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#a087b57</div>
-                                        <div class="message">Handoff after deploying News (fc46073)
+                                        <div class="sha">#42ad8fb</div>
+                                        <div class="message">docs: record AVD user verification of Samsung GOT fix
 
-PLAN handoff block rewritten (owner tests News next), Status row for News; the 18:52 handoff moved to HISTORY with its ACCEPTED note and session log; AGENTS Production state, Cherry-made content (news.json, banner ids 1970000000-1970000999) and Code map News row; REFERENCE News protocol section.</div>
+Co-Authored-By: Claude Opus 5.5 &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -71,65 +97,25 @@ PLAN handoff block rewritten (owner tests News next), Status row for News; the 1
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3f04e86</div>
-                                        <div class="message">Merge pull request #39 from rachelalba-tech/feature/workflow
+                                        <div class="sha">#a97fb71</div>
+                                        <div class="message">Merge pull request #37 from rachelalba-tech/feat/non-album-upload
 
-chore(ci): gate Render deployments on tested commits</div>
+feat(upload): allows photo uploads outside of albums</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#97f6806</div>
-                                        <div class="message">Merge remote-tracking branch 'origin/main' into pr39-fix</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a633b1c</div>
-                                        <div class="message">Merge branch 'pr35-fix' into pr39-fix</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#bb42066</div>
-                                        <div class="message">Merge branch 'pr35-fix' into pr39-fix</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ffb4bb0</div>
-                                        <div class="message">Merge remote-tracking branch 'origin/main' into pr39-fix</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#bcb2a6f</div>
-                                        <div class="message">fix(ci): deploy the commit that passed tests
+                                        <div class="sha">#18c7138</div>
+                                        <div class="message">fix(upload): verify library-only uploads
 
-Pin each Render hook to the checked SHA. Verify staging is live
-at that SHA before approving the production job.</div>
+Keep each added album in the gallery caption and leave manual
+test uploads out of the shipped seed data.</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#eec0055</div>
-                                        <div class="message">added staging deployment</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#41bcfef</div>
-                                        <div class="message">Merge branch 'main' into feature/workflow</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1715d55</div>
-                                        <div class="message">added deploy-production to workflow</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a96e7d6</div>
-                                        <div class="message">added deploy to prod</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ed2224f</div>
-                                        <div class="message">updated frontend url link</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fae7691</div>
-                                        <div class="message">added frontend urls for prod and staging in cors</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ddba6e0</div>
-                                        <div class="message">Merge branch 'feature/workflow' of https://github.com/rachell-code/STSWENG_SmartAlbum into feature/workflow</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ec183fe</div>
-                                        <div class="message">changed collage BASE to deployed backend link</div>
+                                        <div class="sha">#7bc7ac1</div>
+                                        <div class="message">feat(upload): allows photo uploads outside of albums
+
+uploaded photos that are not uploaded onto an album appears in the photos tab
+
+updated single-view display. captions now appear on top alongside information about which album the image belongs to</div>
                                     </div>
                                 </div>
                             </section>
